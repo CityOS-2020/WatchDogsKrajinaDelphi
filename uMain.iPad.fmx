@@ -1,0 +1,31 @@
+inherited LocationForm_iPad: TLocationForm_iPad
+  ClientHeight = 1004
+  ClientWidth = 768
+  DesignerMasterStyle = 3
+  inherited ListBox1: TListBox
+    Position.Y = 54.000000000000000000
+    Size.Width = 768.000000000000000000
+    inherited lbLatitude: TListBoxItem
+      Size.Width = 768.000000000000000000
+    end
+    inherited lbLongitude: TListBoxItem
+      Size.Width = 768.000000000000000000
+    end
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 768.000000000000000000
+    Size.Height = 44.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 695.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+    inherited Button1: TButton
+      Position.X = 695.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+  end
+  inherited WebBrowser1: TWebBrowser
+    Size.Width = 768.000000000000000000
+    Size.Height = 835.000000000000000000
+  end
+end

@@ -1,0 +1,24 @@
+inherited LocationForm_LgXhdpiPh: TLocationForm_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 3
+  inherited ListBox1: TListBox
+    Size.Width = 450.000000000000000000
+    inherited lbLatitude: TListBoxItem
+      Size.Width = 410.000000000000000000
+    end
+    inherited lbLongitude: TListBoxItem
+      Size.Width = 410.000000000000000000
+    end
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 377.000000000000000000
+    end
+  end
+  inherited WebBrowser1: TWebBrowser
+    Size.Width = 450.000000000000000000
+    Size.Height = 522.000000000000000000
+  end
+end

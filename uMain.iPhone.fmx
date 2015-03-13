@@ -1,0 +1,18 @@
+inherited LocationForm_iPhone: TLocationForm_iPhone
+  ClientHeight = 460
+  ClientWidth = 320
+  DesignerMasterStyle = 3
+  inherited ListBox1: TListBox
+    Size.Width = 320.000000000000000000
+  end
+  inherited ToolBar1: TToolBar
+    Size.Width = 320.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 247.000000000000000000
+    end
+  end
+  inherited WebBrowser1: TWebBrowser
+    Size.Width = 320.000000000000000000
+    Size.Height = 287.000000000000000000
+  end
+end
