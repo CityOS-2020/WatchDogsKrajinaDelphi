@@ -6,7 +6,6 @@ object LocationForm: TLocationForm
   FormFactor.Width = 1920
   FormFactor.Height = 1022
   FormFactor.Devices = [Desktop]
-  OnCreate = FormCreate
   DesignerMasterStyle = 3
   object ListBox1: TListBox
     Align = Top
@@ -47,12 +46,21 @@ object LocationForm: TLocationForm
     TabOrder = 2
     object Label1: TLabel
       Align = Client
-      Size.Width = 311.000000000000000000
+      Size.Width = 235.000000000000000000
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
       StyleLookup = 'toollabel'
       TextSettings.HorzAlign = Center
       Text = 'Location'
+    end
+    object Switch1: TSwitch
+      Align = Left
+      IsChecked = False
+      Position.Y = 11.000000000000000000
+      Size.Width = 76.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
     end
     object Button1: TButton
       Align = Right
@@ -60,9 +68,8 @@ object LocationForm: TLocationForm
       Size.Width = 73.000000000000000000
       Size.Height = 48.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 0
-      Text = 'Reload'
-      OnClick = Button1Click
+      TabOrder = 2
+      Text = 'Button1'
     end
   end
   object WebBrowser1: TWebBrowser

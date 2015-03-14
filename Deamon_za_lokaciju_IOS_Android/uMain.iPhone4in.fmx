@@ -18,7 +18,10 @@ inherited LocationForm_iPhone4in: TLocationForm_iPhone4in
     Size.Width = 320.000000000000000000
     Size.Height = 44.000000000000000000
     inherited Label1: TLabel
-      Size.Width = 247.000000000000000000
+      Size.Width = 171.000000000000000000
+      Size.Height = 44.000000000000000000
+    end
+    inherited Switch1: TSwitch
       Size.Height = 44.000000000000000000
     end
     inherited Button1: TButton

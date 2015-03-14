@@ -14,7 +14,17 @@ inherited LocationForm_LgXhdpiPh: TLocationForm_LgXhdpiPh
   inherited ToolBar1: TToolBar
     Size.Width = 450.000000000000000000
     inherited Label1: TLabel
-      Size.Width = 377.000000000000000000
+      Size.Width = 326.000000000000000000
+    end
+    inherited Switch1: TSwitch
+      Anchors = [akLeft]
+      OnSwitch = Switch1Switch
+    end
+    inherited Button1: TButton
+      Position.X = 402.000000000000000000
+      Size.Width = 48.000000000000000000
+      StyleLookup = 'replytoolbutton'
+      OnClick = Button1Click
     end
   end
   inherited WebBrowser1: TWebBrowser

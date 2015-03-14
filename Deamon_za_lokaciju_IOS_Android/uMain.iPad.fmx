@@ -16,8 +16,13 @@ inherited LocationForm_iPad: TLocationForm_iPad
     Size.Width = 768.000000000000000000
     Size.Height = 44.000000000000000000
     inherited Label1: TLabel
-      Size.Width = 695.000000000000000000
+      Size.Width = 640.000000000000000000
       Size.Height = 44.000000000000000000
+    end
+    inherited Switch1: TSwitch
+      Position.Y = 4.000000000000000000
+      Size.Width = 55.000000000000000000
+      Size.Height = 35.000000000000000000
     end
     inherited Button1: TButton
       Position.X = 695.000000000000000000
